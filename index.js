@@ -2,7 +2,7 @@ input = document.querySelector("#imageUpload");
 btn = document.querySelector("#convertGrayscale");
 uploadImg = document.getElementById("uploadedImage");
 
-const fun = (e) => {
+const sendPhoto = (e) => {
 	const reader = new FileReader();
 	reader.onload = function () {
 		uploadImg.src = reader.result;
@@ -38,4 +38,4 @@ const convertToGrayscale = () => {
 };
 
 btn.addEventListener("click", convertToGrayscale);
-input.addEventListener("change", fun);
+input.addEventListener("change", sendPhoto);
