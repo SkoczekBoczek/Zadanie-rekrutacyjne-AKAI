@@ -1,4 +1,4 @@
-Zadanie-rekrutacyjne-AKAI
+# Zadanie-rekrutacyjne-AKAI
 
 // Zadanie 1: Wybierz niezbędne elementy DOM
 // Przykład: Musisz uzyskać odniesienia do elementów takich jak input pliku, przycisk, img i canvas.
